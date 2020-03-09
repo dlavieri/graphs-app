@@ -1,0 +1,14 @@
+.datainput-container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.datainput {
+    width: 80%;
+    height: 200px;
+    border: none;
+    background: #eee;
+    padding: 10px 15px;
+}

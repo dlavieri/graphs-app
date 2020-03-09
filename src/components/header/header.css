@@ -1,0 +1,28 @@
+/* BRAND COLORS:
+// red #ea4335
+// blue #4285f4
+// yellow #fbbc05
+// green #34a853
+// grey #656565
+*/
+
+.app-header {
+    width: 100vw;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    align-content: center;
+    border-bottom: #c2c2c2 1px solid;
+    box-shadow: 0 0 8px #c2c2c2;
+}
+
+.app-title {
+    font-size: 1.5em;
+    font-family: 'Fredoka One', 'Open Sans', sans-serif;
+    color: #ea4335;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+}

@@ -1,0 +1,24 @@
+.bargraph {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bargraph__chart {
+    width: 600px;
+    height: 300px;
+}
+
+.bar rect {
+    fill: var(--main-grey);
+    transition: fill 300ms ease;
+}
+.bar text {
+    color: black;
+    font-size: 0.8em;
+    line-height: 19px;
+}
+.bar rect:hover,
+.bar rect:focus {
+    fill: var(--main-red);
+}

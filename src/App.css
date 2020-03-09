@@ -1,0 +1,24 @@
+/* BRAND COLORS:
+// red #ea4335
+// blue #4285f4
+// yellow #fbbc05
+// green #34a853
+// grey #656565
+*/
+
+:root {
+    --main-red: #ea4335;
+    --main-blue: #4285f4;
+    --main-yellow: #fbbc05;
+    --main-green: #34a853;
+    --main-grey: #656565;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+.App {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
